@@ -29,4 +29,3 @@ Python 3，常见依赖包括：`torch`、`transformers`、`numpy`、`scipy`、`
 2. 按需运行各目录下的 `trainset_builder*` → `finetune*` / `*_fine.py` → `all_scores*.py`。  
 3. 将生成的 JSON 汇总到 `method` 期望的目录结构后，运行 `method/train_model.py`、`eval.py` 等完成训练与评估。
 
-（仓库内若含日志或大文件，上传前建议用 `.gitignore` 排除。）
